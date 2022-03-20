@@ -58,7 +58,8 @@ if __name__ == '__main__':
           '\t5.根据知乎博主：红尘 的文章教程制作的程序，文章地址：https://zhuanlan.zhihu.com/p/473437761\n'
           '\t6.使用方法视频版演示教程以及问题反馈地址：\n'
           '\t7.程序作者：哔哩哔哩UP主：阿哲-啊这\n'
-          '\t8.保守起见，还请先自行备份hosts文件！\n')
+          '\t8.保守起见，还请先自行备份hosts文件！\n'
+          '\t9.开源地址https://github.com/Conan8023/edgeHosts\n')
     if not os.path.exists(hosts):
         os.system('type nul>C:\Windows\System32\drivers\etc\hosts')  # 调用系统命令行来创建hosts文件
     main()
